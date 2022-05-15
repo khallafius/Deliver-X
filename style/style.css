@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+}
+
+header ul {
+  display: flex;
+}
+
+header li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #121212;
+  margin: 0 13px;
+}
+
+header li a:hover {
+  color: #FF5634;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.app {
+  width: 162px;
+  height: 56px;
+  background-color: #ffffff;
+  border: 1px solid #bdbcbc;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 18px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.reg {
+  width: 114px;
+  height: 56px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #FF5634;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_first {
+  margin: 101px 0 101px 85px;
+  width: 50%;
+}
+.left_first img {
+  width: 60%;
+}
+
+.right_first {
+  width: 50%;
+}
+
+.delicious p:nth-child(1) {
+  color: #FF5634;
+  font-size: 18px;
+  font-weight: 400, Regular;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.delicious h1 {
+  font-size: 62px;
+  font-weight: 700, Bold;
+  width: 515px;
+}
+
+.delicious p:nth-child(3) {
+  font-size: 12px;
+  width: 574px;
+  line-height: 30px;
+  color: #656565;
+  margin-top: 16px;
+}
+
+.regdow {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.orange {
+  width: 247px;
+  height: 73px;
+  background-color: #FF5634;
+  border-radius: 16px;
+  font-size: 18px;
+  color: white;
+}
+
+.white {
+  width: 205px;
+  height: 73px;
+  border: 1px solid #bdbcbc;
+  border-radius: 16px;
+  background: white;
+  font-size: 18px;
+  margin-left: 27px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.43);
+}
+
+#one {
+  width: 586px;
+  background-color: #CACACA;
+  height: 1px;
+}
+
+.statistic {
+  margin-top: 60px;
+  display: flex;
+}
+
+.happy {
+  margin-right: 43px;
+  text-align: center;
+}
+
+.happy p:nth-child(1) {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.happy span {
+  font-weight: 400;
+  color: #FF5634;
+  margin-left: 4px;
+}
+
+.happy p:nth-child(2) {
+  color: #656565;
+  font-size: 18px;
+}
+
+.restaurant {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.restaurant h3 {
+  font-size: 20px;
+  color: #656565;
+  font-weight: 400;
+}
+
+.kinds {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48px;
+  padding-bottom: 145px;
+}
+
+#two {
+  width: 90%;
+  background-color: #CACACA;
+  height: 1px;
+}
+
+.simple {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.hr {
+  display: flex;
+  justify-content: center;
+}
+
+.how_it_works p:nth-child(1) {
+  text-transform: uppercase;
+  color: #FF5634;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.how_it_works h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.how_it_works p:nth-child(3) {
+  font-size: 12px;
+  color: #656565;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.phone {
+  text-align: center;
+  width: 350px;
+}
+
+.phone h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.phone p {
+  font-size: 18px;
+  color: #656565;
+}
+
+.buttons1 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.Why_great {
+  margin-top: 100px;
+}
+
+.why_great_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.learn h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 16px;
+}
+.learn p:nth-child(2) {
+  font-size: 12px;
+  color: #656565;
+  width: 541px;
+  line-height: 30px;
+  margin-bottom: 33px;
+}
+
+.privilagies {
+  display: flex;
+}
+
+.privilagy img {
+  margin-bottom: 28px;
+}
+
+.privilagy h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.privilagy {
+  margin-right: 48px;
+}
+.privilagy p {
+  font-size: 14px;
+  color: #656565;
+  margin-bottom: 72px;
+  line-height: 30px;
+}
+.privilagy p span {
+  font-size: 18px;
+  margin-left: 85px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons2 {
+  margin-top: 60px;
+  margin-left: 32%;
+  margin-bottom: 100px;
+}
+
+.delicious_burger {
+  background-color: #121212;
+  display: flex;
+}
+
+.text {
+  width: 45%;
+  padding-left: 60px;
+}
+.text button {
+  background-color: #FF5634;
+  color: #ffffff;
+  width: 206px;
+  height: 73px;
+  border-radius: 16px;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+  margin-top: 27px;
+  margin-bottom: 270px;
+}
+.text h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  padding: 274px 0 16px 0;
+}
+
+.delicious_burger p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+}
+
+.delicious_burger p span {
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 280px;
+}
+
+.images {
+  position: relative;
+  width: 55%;
+}
+
+#a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#b {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#c {
+  position: absolute;
+  top: 174px;
+  left: 0;
+}
+
+#d {
+  position: absolute;
+  top: 46px;
+  right: 0;
+}
+
+#e {
+  position: absolute;
+  top: 510px;
+  left: 0;
+}
+
+#f {
+  position: absolute;
+  top: 381px;
+  right: 0;
+}
+
+#g {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#h {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}/*# sourceMappingURL=style.css.map */
